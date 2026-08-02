@@ -10,6 +10,7 @@ import {
   Download,
   FileCode2,
   Gem,
+  Github,
   Layers3,
   Moon,
   Pentagon,
@@ -143,6 +144,7 @@ function App() {
           <label className="compact-select" title="Language"><select aria-label="Language" value={language} onChange={(event) => setLanguage(event.target.value as Language)}><option value="en">🇺🇸 EN</option><option value="es">🇪🇸 ES</option><option value="pt-BR">🇧🇷 PT</option></select><ChevronDown size={12} /></label>
           <label className="compact-select" title="Measurement units"><select aria-label="Measurement units" value={unitSystem} onChange={(event) => setUnitSystem(event.target.value as UnitSystem)}><option value="mm">mm</option><option value="in">in</option></select><ChevronDown size={12} /></label>
           <button className="theme-toggle" title={darkMode ? 'Use light mode' : 'Use dark mode'} aria-label={darkMode ? 'Use light mode' : 'Use dark mode'} onClick={() => setDarkMode((value) => !value)}>{darkMode ? <Sun size={15} /> : <Moon size={15} />}</button>
+          <a className="github-link" href="https://github.com/lucas-vitrus/3d-printable-aruco" target="_blank" rel="noreferrer" title="Open GitHub repository" aria-label="Open GitHub repository"><Github size={16} /></a>
         </div>
       </header>
 

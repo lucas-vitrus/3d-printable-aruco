@@ -41,6 +41,8 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .top-status button { cursor: pointer; background: transparent; }
 .top-status button:hover { background: #e9eae4; color: #20221f; }
 .theme-toggle { width: 32px; justify-content: center; padding: 0 !important; }
+.github-link { width: 32px; height: 32px; border: 1px solid #d7d9d1; background: transparent; border-radius: 6px; display: grid; place-items: center; color: #5e635c; }
+.github-link:hover { background: #e9eae4; color: #20221f; }
 .compact-select { position: relative; display: flex; align-items: center; height: 32px; border: 1px solid #d7d9d1; border-radius: 6px; background: #f4f4ef; color: #5e635c; }
 .compact-select select { appearance: none; height: 100%; border: 0; background: transparent; padding: 0 22px 0 9px; font-size: 10px; font-weight: 750; color: inherit; cursor: pointer; }
 .compact-select svg { position: absolute; right: 6px; pointer-events: none; }
@@ -216,6 +218,8 @@ footer { max-width: 1510px; margin: 0 auto; padding: 0 40px 28px; display: flex;
 .dark-mode .preview-toolbar { background: #202720; border-color: #3c463f; }
 .dark-mode .canvas-wrap { background: radial-gradient(circle at 50% 42%, #2b332d 0, #171d18 70%); }
 .dark-mode .top-status > span, .dark-mode .top-status button, .dark-mode .compact-select { border-color: #465148; background: #252d26; color: #c9d2c8; }
+.dark-mode .github-link { border-color: #465148; background: #252d26; color: #c9d2c8; }
+.dark-mode .github-link:hover { background: #323d34; color: #fff; }
 .dark-mode .top-status button:hover, .dark-mode .svg-button:hover, .dark-mode .json-button:hover, .dark-mode .step-button:hover { background: #323d34; color: #fff; }
 .dark-mode .compact-select select { color: #d4ddd2; }
 .dark-mode .shape-grid button, .dark-mode .segmented, .dark-mode .check-list > div, .dark-mode .tag-inventory-grid article { background: #252d26; border-color: #414c43; color: #dde5dc; }
