@@ -1,0 +1,13 @@
+{
+  "shape": "cube",
+  "dictionary": "DICT_4X4_50",
+  "markerId": 7,
+  "markerSize": 36,
+  "primitiveSize": 50,
+  "baseThickness": 2.4,
+  "inkDepth": 0.4,
+  "quietZoneModules": 1,
+  "faceCount": 5,
+  "nozzleDiameter": 0.4,
+  "layerHeight": 0.2
+}
